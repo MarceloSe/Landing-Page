@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= KoHo & family= Satisfy & display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(-68.15deg, #30a3d0 0%, #330867 100%);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho-logo {
+
+    width: 60px;
+    height: 60px;
+}
+.menu {
+    padding-left: 60px;
+}
+.cabecalho-item-menu{
+    padding: 10px;
+    font-family: 'KoHo', sans-serif;
+    color: bisque;
+    border: 1px solid bisque;
+    box-shadow: 0.1em 0.1em #333;
+}
+
+/* Formatação dos Botões */
+
+.botao-cadastro {
+    border-radius: 8px;
+    background-color: bisque;
+    width: 130px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Formatação do corpo principal */
+
+.titulo-principal {
+    text-align: center;
+    font-family: 'Satisfy', sans-serif;
+    color: bisque;
+    padding: 25px 0 25px 0;
+    font-size: 15pt;
+}
+.info-bot {
+    display: block;
+    justify-content: space-between;
+}
+.lateral {
+    display: block
+
+}
