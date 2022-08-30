@@ -3,69 +3,40 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-}
-body {
-    font-size: 100%;
-    background-image: linear-gradient(to left, #30a3d0 0%, #330867 100%);
-}
-.cabecalho {
-    display: flex;
-    flex-direction: row;
-    padding: 25px;
-    justify-content: space-between;
-    align-items: center;
-}
-.cabecalho-logo {
-
-    width: 60px;
-    height: 60px;
-}
-.menu {
-    padding-left: 60px;
-}
-.cabecalho-item-menu{
-    padding: 10px;
-    font-family: 'KoHo', sans-serif;
-    color: bisque;
-    border: 1px solid bisque;
-    box-shadow: 0.1em 0.1em #333;
 }
 
-/* Formatação dos Botões */
-
-.botao-cadastro {
-    border-radius: 8px;
-    background-color: bisque;
-    width: 130px;
-    height: 50px;
+body{
+    background-image: linear-gradient(to right, #185dbe, #09a0a5 );
+    min-width:300px;
+}
+header{
+    position: relative;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* Formatação do corpo principal */
-
-.titulo-principal {
+nav{
     text-align: center;
-    font-family: 'Satisfy', sans-serif;
-    color: bisque;
-    padding: 25px 0 25px 0;
-    font-size: 15pt;
-}
-.info-bot {
-    display: block;
-    justify-content: space-between;
-}
-.lateral {
-    display: block
+    margin-top: -40px;
 
+}
+nav > a{
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 3px;
+    padding: 5px;
+    background-color: bisque;
+    color: black;
+
+}
+.cadastro{
+    display: block;
+    margin-left: auto;
+    margin-top: -35px;
+    margin-right: 15px;
+    padding: 6px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+main{
+    margin-top: 180px;
 }
