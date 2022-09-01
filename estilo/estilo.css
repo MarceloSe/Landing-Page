@@ -1,12 +1,14 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2? family= KoHo & family= Satisfy & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-image: linear-gradient(to right, #185dbe, #09a0a5 );
+    background-image: url('../imagens/fundo.jpg');
     min-width:300px;
 }
 
@@ -14,9 +16,11 @@ body{
 
 header{
     position: relative;
-    border: 1px solid black;
-    padding-bottom: 100px;
-    background-image: url("");
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;
+    border-radius: 0 0 10px 10px;
+    font-family: 'KoHo', sans-serif;
+    font-weight: bolder;
 }
 nav{
     text-align: center;
@@ -24,13 +28,16 @@ nav{
 
 }
 nav > a{
-    border: 1px solid black;
+    color: white;
     border-radius: 4px;
     margin: 3px;
     padding: 5px;
-    background-color: bisque;
-    color: black;
+    color: white;
+    text-decoration: none;
 
+}
+a:hover{
+    background-color: #3248c7a2;
 }
 .cadastro{
     display: block;
@@ -45,39 +52,75 @@ nav > a{
 
 /* Ínicio da configuração do Corpo */
 main{
-    margin-top: 180px;
+    margin-top: 100px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: white;
 }
 #titulo{
     text-align: center;
     padding-bottom: 40px;
+    font-family: 'Oswald', sans-serif;
 }
 .artigo{
     position: relative;
     display: flex;
     flex-direction: row;
 }
-.discord{
-    display: block;
-    margin-left: 180px;
-}
 .telegram{
     display: block;
+    margin-left: 180px;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.discord{
+    display: block;
     margin: auto;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px;
 }
-.discord > h2{
+div > h2{
     text-align: center;
     padding-bottom: 20px;
 }
-.telegram > h2{
+div > h3{
+    padding-top: 25px;
+    padding-bottom: 50px;
     text-align: center;
-    padding-bottom: 20px;
+}
+div > p{
+    line-height: 2.5em;
 }
 .discord > img{
     border-radius: 10px;
+}
+.imgtelegram{
+    display: block;
+    margin: auto;
+}
+.imgdiscord{
+    display: block;
+    margin: auto;
+}
+div > button{
+    display: block;
+    margin: auto;
+    padding: 6px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 4px;
 }
 
 /* Configuração do Rodapé */
 footer{
     display: block;
-    margin-top: auto;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'KoHo', sans-serif;
+    color: white;
+}
+footer > a{
+    text-decoration: none;
+    color: white;
 }
