@@ -48,73 +48,13 @@ nav > a:hover{
     background-color: bisque;
     border: 1px solid black;
     border-radius: 4px;
-    text-decoration: none;
 }
 button > a{
     text-decoration: none;
     color: black;
 }
+
 /* Ínicio da configuração do Corpo */
-main{
-    margin-top: 100px;
-    font-family: 'Hind Siliguri', sans-serif;
-    color: white;
-}
-#titulo{
-    text-align: center;
-    padding-bottom: 40px;
-    font-family: 'Oswald', sans-serif;
-}
-.artigo{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-}
-.telegram{
-    display: block;
-    margin-left: 180px;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 10px;
-}
-.discord{
-    display: block;
-    margin: auto;
-    border: 1px solid white;
-    padding: 10px;
-    border-radius: 10px;
-}
-div > h2{
-    text-align: center;
-    padding-bottom: 20px;
-}
-div > h3{
-    padding-top: 25px;
-    padding-bottom: 50px;
-    text-align: center;
-}
-div > p{
-    line-height: 2.5em;
-}
-.discord > img{
-    border-radius: 10px;
-}
-.imgtelegram{
-    display: block;
-    margin: auto;
-}
-.imgdiscord{
-    display: block;
-    margin: auto;
-}
-div > button{
-    display: block;
-    margin: auto;
-    padding: 6px;
-    background-color: bisque;
-    border: 1px solid black;
-    border-radius: 4px;
-}
 
 /* Configuração do Rodapé */
 footer{
