@@ -88,16 +88,16 @@ main{
     border-radius: 10px;
     margin-left: 5px;
 }
-div > h2{
+section > h2{
     text-align: center;
     padding-bottom: 20px;
 }
-div > h3{
+section > h3{
     padding-top: 25px;
     padding-bottom: 50px;
     text-align: center;
 }
-div > p{
+section > p{
     line-height: 2.5em;
 }
 .discord > img{
@@ -111,7 +111,7 @@ div > p{
     display: block;
     margin: auto;
 }
-div > button{
+section > button{
     display: block;
     margin: auto;
     padding: 10px;
