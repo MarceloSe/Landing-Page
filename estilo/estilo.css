@@ -51,8 +51,8 @@ nav > a:hover{
 }
 .cadastro {
     margin-top: 32px;
-    background-color: bisque;
-    border: 1px solid black;
+    background-color: rgba(165, 109, 225, 0.863);
+    border: 1px solid white;
     border-radius: 7px;
     text-decoration: none;
     width: 70px;
@@ -60,7 +60,7 @@ nav > a:hover{
 }
 button > a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 button > a:hover{
     text-decoration: underline;
