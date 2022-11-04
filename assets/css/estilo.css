@@ -8,3 +8,37 @@
   font-family: 'KoHo', sans-serif;
   font-family: 'Oswald', sans-serif;
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+}
+
+body {
+    background: linear-gradient(to right,#266BFC, #26DCFC);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+/*Configuração do cabeçalho*/
+
+nav a {
+    color: black;
+    padding: 8px;
+    margin: 3px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #24F2DA;
+}
